@@ -30,7 +30,14 @@ val pattern(answerString) = theUltimateAnswer
 val answer = answerString.toInt
 println(answer)
 
-// Booleans 
+// Booleans
 val isGreater = 1 > 2
 val isLesser = 1 < 2
 val impossible = isGreater & isLesser
+
+// Exercice
+// Exercice : Ecrivez un code qui prend la valeur PI, type double, puis l'affiche dans
+//une chaine de caractère avec trois décimale de précision.
+
+val pi: Double = 3.14159
+println(f"Pi is about $pi%.3f")

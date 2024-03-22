@@ -22,3 +22,10 @@ println(f"Pi is about $piSinglePrecision%.3f")
 println(f"Zero padding on the left: $numberOne%05d")
 
 println(s"I can use the s prefix to use variables like $numberOne $truth $letterA")
+
+val theUltimateAnswer: String = "The answer to life, the universe, and everything is 42."
+val pattern = """.* ([\d]+).*""".r
+
+val pattern(answerString) = theUltimateAnswer
+val answer = answerString.toInt
+println(answer)

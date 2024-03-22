@@ -30,7 +30,7 @@ val pattern(answerString) = theUltimateAnswer
 val answer = answerString.toInt
 println(answer)
 
-// Booleans
+// Booleans 
 val isGreater = 1 > 2
 val isLesser = 1 < 2
 val impossible = isGreater & isLesser
